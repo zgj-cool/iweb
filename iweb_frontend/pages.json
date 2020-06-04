@@ -1,0 +1,122 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/courseList/courseList",
+            "style" : {
+				"navigationBarTitleText": "课程列表",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/courseDetail/courseDetail",
+            "style" : {
+				"navigationBarTitleText": "课程详情"
+			}
+        },{
+            "path" : "pages/teacher/teacher",
+            "style" : {
+				"navigationBarTitleText": "讲师列表",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/school/school",
+            "style" : {
+				"navigationBarTitleText": "校区列表",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/userCenter/userCenter",
+            "style" : {
+				"navigationBarTitleText": "用户中心"
+			}
+        }
+        ,{
+            "path" : "components/iewbUserInfo/iewbUserInfo",
+            "style" : {
+        		"navigationBarTitleText": "账户设置"
+        	}
+        }
+		,{
+		    "path" : "components/iwebOrder/iwebOrder",
+		    "style" : {
+				"navigationBarTitleText": "我的课程"
+			}
+		}
+		,{
+		    "path" : "components/iwebCart/iwebCart",
+		    "style" : {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "components/iwebUpdatePwd/iwebUpdatePwd",
+		    "style" : {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+		    "path" : "components/iwebMyFavorites/iwebMyFavorites",
+		    "style" : {
+				"navigationBarTitleText": "收藏夹",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "components/iwebCartSett/iwebCartSett",
+		    "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "iWeb在线课堂",
+		"navigationBarBackgroundColor": "#57BC4C",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#C1EEBD",
+		"selectedColor":"#57BC4C",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home_active.png"
+			},
+			{
+				"pagePath":"pages/courseList/courseList",
+				"text":"课程",
+				"iconPath":"static/icon/course.png",
+				"selectedIconPath":"static/icon/course_active.png"
+			},
+			{
+				"pagePath":"pages/teacher/teacher",
+				"text":"讲师",
+				"iconPath":"static/icon/teacher.png",
+				"selectedIconPath":"static/icon/teacher_active.png"
+			},
+			{
+				"pagePath":"pages/school/school",
+				"text":"校区",
+				"iconPath":"static/icon/school.png",
+				"selectedIconPath":"static/icon/school_active.png"
+			},
+			{
+				"pagePath":"pages/userCenter/userCenter",
+				"text":"用户",
+				"iconPath":"static/icon/user.png",
+				"selectedIconPath":"static/icon/user_active.png"
+			}
+		]
+	}
+}

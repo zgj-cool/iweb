@@ -1,0 +1,35 @@
+{
+  "name": "iweb_backend",
+  "version": "2.0.0",
+  "description": "iWeb project backend API system",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+	"start":"node ./index.js",
+	"dev":"nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zgj/iweb_backckend.git"
+  },
+  "keywords": [
+    "iweb",
+    "api",
+    "backend"
+  ],
+  "author": "Zhuguojiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgj/iweb_backckend/issues"
+  },
+  "homepage": "https://github.com/zgj/iweb_backckend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "svg-captcha": "^1.4.0"
+  }
+}
